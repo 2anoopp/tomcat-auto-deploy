@@ -40,7 +40,7 @@ node{
            
                     sh "kubectl run sampletomcat --image=2anoopp/sampletomcat"
                 }
-            }
-        }
+            
+        
   
 }
