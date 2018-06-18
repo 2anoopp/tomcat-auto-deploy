@@ -35,4 +35,12 @@ node{
           
         }
     }
+  
+  stage('Create container on k8s') {
+           
+                    sh "kubectl run sampletomcat --image=2anoopp/sampletomcat"
+                }
+            }
+        }
+  
 }
