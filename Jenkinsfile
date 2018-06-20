@@ -40,4 +40,9 @@ node{
            
                     sh "kubectl apply -f tomcat_deploy.yml"
                 }
+  
+  stage('Delete all images and containers'){
+    
+            sh "docker system prune -a -f"
+  }
 }
