@@ -16,4 +16,4 @@ spec:
       - name: tomcat
         image: 2anoopp/sampletomcat
         ports:
-        - containerPort: 8080
+        - containerPort: 8090
