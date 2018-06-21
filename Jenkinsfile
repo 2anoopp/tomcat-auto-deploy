@@ -11,7 +11,7 @@ node{
         /* This builds the actual image; synonymous to
          * docker build on the command line  */
 
-        app = docker.build("registry.cryptotrading-tech.com:5000/sampletomcat")
+        app = docker.build("sampletomcat")
     }
 
     stage('Test image') {
